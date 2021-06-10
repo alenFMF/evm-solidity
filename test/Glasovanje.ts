@@ -9,7 +9,6 @@ describe("Glasovanje", () => {
     let predlogi = ["Prvi", "Drugi", "Tretji", "Četrti"].map(ime => ethers.utils.formatBytes32String(ime))
     const glasovanje = await Glasovanje.deploy(predlogi);
 
-    ethers.utils.toUtf8Bytes
     await glasovanje.deployed();
 
     // Preverimo vodjo

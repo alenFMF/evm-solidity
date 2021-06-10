@@ -23,7 +23,7 @@ Primer priklopa:
 - Testna omrežja tečejo na portu 8545 (izberemo omrežje Localhost 8545)
 - Iz prvega primarnega ključa pri izpisu v terminalu (hardhat node) ustvarimo račun in na njemu imamo 10000 ETH
 
-## Zagon testa
+## Zagon testov
 
 - Zaženemo `npx hardhat test`
 - Požene se datoteka v mapi `test`
